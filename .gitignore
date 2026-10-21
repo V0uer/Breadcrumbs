@@ -1,0 +1,41 @@
+# Dependencias
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Nativo (generado por prebuild / EAS)
+ios/
+android/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+
+# Metro
+.metro-health-check*
+
+# Secretos y entorno
+.env
+.env*.local
+supabase/.env
+supabase/functions/.env
+
+# Supabase local
+supabase/.branches/
+supabase/.temp/
+
+# Sistema y editores
+.DS_Store
+*.pem
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.tsbuildinfo
+.vscode/
+.idea/
